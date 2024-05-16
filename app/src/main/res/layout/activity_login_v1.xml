@@ -46,29 +46,23 @@
         android:inputType="textPassword"/>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/WrapContent"
         android:id="@+id/loginbtn"
         android:layout_below="@id/password"
         android:text="@string/log_in"
         android:backgroundTint="@color/teal_700"
-        android:layout_centerHorizontal="true"
         android:layout_margin="20dp"/>
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/WrapContent"
         android:id="@+id/forgotpass"
         android:layout_below="@id/loginbtn"
         android:text="@string/forgot_password"
         android:textColor="@color/white"
-        android:layout_centerHorizontal="true"
         android:layout_margin="20dp"/>
     <TextView
+        style="@style/WrapContent"
         android:id="@+id/others"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_above="@id/socialicon"
-        android:layout_centerHorizontal="true"
         android:text="@string/or_sign_in_with"
         android:textColor="@color/white"/>
     <LinearLayout
